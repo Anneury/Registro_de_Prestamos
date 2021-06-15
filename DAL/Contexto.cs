@@ -13,6 +13,8 @@ namespace Registro_de_Prestamos.DAL
 
         public DbSet<Prestamos> Prestamos { get; set; }
 
+        public DbSet<Moras> Moras { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite(@"Data Source = Data/DatosPersonas.db");
