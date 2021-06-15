@@ -9,7 +9,7 @@ using Registro_de_Prestamos.DAL;
 namespace Registro_de_Prestamos.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210615023349_Inicial")]
+    [Migration("20210615030734_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,7 +50,7 @@ namespace Registro_de_Prestamos.Migrations
                     b.Property<int>("PrestamoId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("Valor")
+                    b.Property<float>("Valor")
                         .HasColumnType("REAL");
 
                     b.HasKey("Id");

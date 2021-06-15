@@ -65,7 +65,7 @@ namespace Registro_de_Prestamos.Migrations
                     MoraId = table.Column<int>(type: "INTEGER", nullable: false),
                     PrestamoId = table.Column<int>(type: "INTEGER", nullable: false),
                     NombrePersona = table.Column<string>(type: "TEXT", nullable: true),
-                    Valor = table.Column<double>(type: "REAL", nullable: false)
+                    Valor = table.Column<float>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
                 {

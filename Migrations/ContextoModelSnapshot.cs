@@ -48,7 +48,7 @@ namespace Registro_de_Prestamos.Migrations
                     b.Property<int>("PrestamoId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("Valor")
+                    b.Property<float>("Valor")
                         .HasColumnType("REAL");
 
                     b.HasKey("Id");

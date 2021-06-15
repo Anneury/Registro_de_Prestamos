@@ -13,7 +13,7 @@ namespace Registro_de_Prestamos.Model
         public int MoraId { get; set; }
         public int PrestamoId { get; set; }
         public string NombrePersona { get; set; }
-        public double Valor { get; set; }
+        public float Valor { get; set; }
     }
 }
  
